@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>My Obsertory</title>
+    </head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js">
+
+    </script>
+    <body>
+        <h1>Welcome to my observatory</h1>
+        <ul>
+        </ul>
+    <input type="submit" name="submit" value="Submit", id="btn" />
+
+    </body>
+<!--     <script>
+        btn.addEventListener("click", () => {
+                axios.get('http://observatory-service:81')
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.log(error);
+            });
+        }
+        )
+
+
+/* 
+        axios({
+            method: "post",
+            url: "http://observatory-service:80",
+            data: { "Content-Type": "return_this_reversed_please" },
+            })
+            .then(function (response) {
+                //handle success
+                console.log(response);
+            })
+            .catch(function (response) {
+                //handle error
+                console.log(response);
+            }); 
+            */
+    </script>
+ --></html>
